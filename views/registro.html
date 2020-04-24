@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Formulario de registro</title>
+    </head>
+    <body style="width:100%;">
+        <a href="/login">Usuario registrado</a>
+        <form action="/register" method="post" style="width: 320px; display: flex; flex-direction:column; margin:auto;">
+            <h3>Registrate aquí!</h3>
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" id="name">
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" name="email" id="email">
+            <label for="msg">Password:</label>
+            <input type="password" name="password" id="password">
+            <input type="submit" value="Registrarse" style="margin-top:15px;">               
+        </form>
+    </body>
+</html>

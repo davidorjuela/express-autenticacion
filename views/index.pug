@@ -1,0 +1,15 @@
+html
+    head
+        title lista
+    body
+        a(href='logout') Logout
+        table
+            thead
+                tr
+                    th name
+                    th email
+            tbody
+                each user in users
+                    tr
+                        td= user.name
+                        td= user.email
